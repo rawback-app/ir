@@ -1,0 +1,61 @@
+{
+ "v": 4,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-09-19T03:18:21Z"
+ },
+ "title": "Rawback 投资人路演",
+ "order": [
+  "cover",
+  "problem",
+  "why-now",
+  "model",
+  "product",
+  "ownership",
+  "market",
+  "compete",
+  "biz",
+  "traction",
+  "roadmap",
+  "ask",
+  "closing"
+ ],
+ "cover": "cover",
+ "sections": {
+  "s1": {
+   "description": "为什么是 Rawback，为什么是现在",
+   "start": "cover"
+  },
+  "s2": {
+   "description": "三层模型与产品",
+   "start": "model"
+  },
+  "s3": {
+   "description": "市场、竞争与商业模式",
+   "start": "market"
+  },
+  "s4": {
+   "description": "现状、路线图与融资",
+   "start": "traction"
+  }
+ },
+ "faces": {
+  "noto-serif-sc": {
+   "family": "Noto Serif SC",
+   "href": "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300..700&display=swap"
+  },
+  "noto-sans-sc": {
+   "family": "Noto Sans SC",
+   "href": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400..800&display=swap"
+  },
+  "newsreader": {
+   "family": "Newsreader",
+   "href": "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300..700&display=swap"
+  },
+  "manrope": {
+   "family": "Manrope",
+   "href": "https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&display=swap"
+  }
+ },
+ "designSystems": []
+}
