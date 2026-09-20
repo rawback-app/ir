@@ -14,7 +14,7 @@
 | PDF | [Rawback-Investor-Deck-EN.pdf](Rawback-Investor-Deck-EN.pdf) | [Rawback-Investor-Deck-ZH.pdf](Rawback-Investor-Deck-ZH.pdf) |
 | 网页 | [en/index.html](en/index.html) | [zh/index.html](zh/index.html) |
 
-种子轮 · 13 页 · 2026 年 9 月。PDF 可直接在 GitHub 上打开；网页版是自包含的 HTML，下载后用任意浏览器打开，滚动即可翻页。
+种子轮 · 13 页 · 2026 年 9 月。PDF 可直接在 GitHub 上打开；网页版是单文件 HTML——克隆或下载整个仓库后，用任意浏览器打开 `en/index.html`，滚动即可翻页（请保留同级的 `assets/` 目录，照片和字体从那里加载）。
 
 [![幻灯片一览](zh/overview.jpg)](Rawback-Investor-Deck-ZH.pdf)
 
@@ -63,7 +63,7 @@
 ## 仓库内容
 
 - `Rawback-Investor-Deck-{EN,ZH}.pdf`——路演 PDF，可直接发送。
-- `en/`、`zh/`——自包含的 HTML 路演（任意浏览器打开，可打印为 PDF）及预览图。
+- `en/`、`zh/`——单文件 HTML 路演（任意浏览器打开，可打印为 PDF）及预览图。其中的照片引用 `../assets/`，字体来自 Google Fonts。
 - `src/`——幻灯片源文件，每页一个 HTML，外加索引 `deck.json`。
 - `assets/`——路演中使用的照片，均由创始人拍摄。
 

@@ -14,7 +14,7 @@
 | PDF | [Rawback-Investor-Deck-EN.pdf](Rawback-Investor-Deck-EN.pdf) | [Rawback-Investor-Deck-ZH.pdf](Rawback-Investor-Deck-ZH.pdf) |
 | Web | [en/index.html](en/index.html) | [zh/index.html](zh/index.html) |
 
-Seed round · 13 slides · September 2026. The PDFs open right here on GitHub. The web decks are self-contained HTML — download and open in any browser, scroll to page through.
+Seed round · 13 slides · September 2026. The PDFs open right here on GitHub. The web decks are single-file HTML — clone or download the repo, open `en/index.html` in any browser, scroll to page through (keep the `assets/` folder alongside; the deck loads its photographs and fonts from there).
 
 [![Slides at a glance](en/overview.jpg)](Rawback-Investor-Deck-EN.pdf)
 
@@ -63,7 +63,7 @@ Market, competition, roadmap and the ask are in the [full deck](Rawback-Investor
 ## In this repo
 
 - `Rawback-Investor-Deck-{EN,ZH}.pdf` — the decks, ready to send.
-- `en/`, `zh/` — self-contained HTML decks (open in any browser; print to PDF), plus preview images.
+- `en/`, `zh/` — single-file HTML decks (open in any browser; print to PDF), plus preview images. They reference `../assets/` for photographs and load their fonts from Google Fonts.
 - `src/` — slide sources, one HTML file per slide, plus the deck index (`deck.json`).
 - `assets/` — photographs used in the decks, shot by the founder.
 
